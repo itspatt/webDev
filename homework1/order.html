@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <style>
+    body{
+      background-color: #FEC8D8;
+    }
+  </style>
+  
+  <h1>order Form</h1>
+  <body>
+
+    <h3>Custermer Information</h3>
+      <label>Name: </label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Street: </label>
+      <input type="text" name="yourAddress" value=""><br>
+      <label>City:</label>
+      <input type="text" name="yourCity" value=""><br>
+      <label>State:</label>
+      <input type="text" name="yourStatre" value=""><br>
+      <label>Zipcode:</label>
+      <input type="text" name="yourZip" value=""><br><br>
+
+      <h3>Order Information</h3>
+        <label>How did you find out about us? </label>
+        <input type="radio" name="find" value="Comercial"> Comercial
+        <input type="radio" name="find" value="Magazine Ad"> Magazine Ad
+        <input type="radio" name="find" value="other"> Other <br>
+        <form action="/action_page.php" method="get">
+            <input type="checkbox" name="email" value="email"> Send me emails about future products.<br>
+          </form>
+      
+      <table width = "50%" border ="1">
+        <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Qty</th>
+        </tr>
+        <tr>
+            <td>Classic Recipe</td>
+            <td>8 oz bottle(mild,medium, or hot</td>
+            <td>$4.99</td>
+            <td><input type="text" name="price" value=""></td>
+        </tr>
+        <tr>
+            <td>Late Heat</td>
+            <td>8 oz bottle(hot only)</td>
+            <td>$5.99</td>
+            <td><input type="text" name="price" value=""></td>
+        </tr>
+        <tr>
+            <td>Sweet and Spicy</td>
+            <td>8 oz bottle(mild,medium, or hot</td>
+            <td>$3.99</td>
+            <td><input type="text" name="price" value=""></td>
+        </tr>
+        <tr>
+            <td>Pepper Parte</td>
+            <td>8 oz bottle(mild,medium, or hot</td>
+            <td>$4.99</td>
+            <td><input type="text" name="price" value=""></td>
+        </tr>
+        <tr>
+            <td>Roasted Tonado</td>
+            <td>8 oz bottle(mild,medium, or hot</td>
+            <td>$6.99</td>
+            <td><input type="text" name="price" value=""></td>
+        </tr>
+      </table>
+      <label>Select a credit card </label>
+      <select>
+        
+        <option value="Visa">Volvo</option>
+        <option value="Mastercard">Saab</option>
+        <option value="cash">Opel</option>
+        <option value="banking">Audi</option>
+      </select>
+      <br>
+      <label>Credit Card Number: </label>
+      <input type="text" name="yourName" value=""><br>
+
+  </body>
+  
+</html>
